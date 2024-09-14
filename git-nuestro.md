@@ -9,3 +9,5 @@ No nos dejes caer en *detached HEAD*
 y líbranos de *SVN*
 `git commit --amend`
 
+
+VOY 1 HORA REALIZANDO COMMITS 
