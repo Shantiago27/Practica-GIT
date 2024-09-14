@@ -10,7 +10,7 @@ Para rehacer los cambios realizados, tuve que hacer un git reflog para poder ver
 El merge del paso13 no causo ningún conflicto, ya que el progreso de la rama styled previamente ya contiene todos los cambios de la rama main y main no sufrió ningún cambio aparte.
 
 - El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
-
+Si causo conflicto porque existe una version de los datos guardados dentro de la rama styled la cual se quiere combinar con los datos de htmlify, entonces se debe decidir sobre el contenido del archivo git-nuestro donde escogemos la version de styled y realizamos un commit para después realizar el merge donde styled absorbe a htmlify.
 
 - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
