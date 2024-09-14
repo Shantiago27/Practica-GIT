@@ -13,7 +13,7 @@ El merge del paso13 no causo ningún conflicto, ya que el progreso de la rama st
 Si causo conflicto porque existe una version de los datos guardados dentro de la rama styled la cual se quiere combinar con los datos de htmlify, entonces se debe decidir sobre el contenido del archivo git-nuestro donde escogemos la version de styled y realizamos un commit para después realizar el merge donde styled absorbe a htmlify.
 
 - El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
-
+No causo ningún conflicto ya que main no tiene nuevos commits desde la ultima vez que se trabajo en ella, entonces realizo un merge fast-forward y se adelanto el puntero de main hasta los cambios que tiene styled.
 
 - ¿Qué comando o comandos utilizaste en el paso 25?
 
